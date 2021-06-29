@@ -1,0 +1,595 @@
+/*Reseteo de estilos*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/*CSS Comunes a toda la pagina*/
+.divLogo,
+.menuNavegacion {
+    margin: 15px 15px 0 15px;
+}
+
+.h1Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divLogo img {
+    width: 100px;
+    height: 100px;
+}
+
+.liContacto li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.headerIndex {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/FotosVideos/salida-6-400px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header404 {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/FotosVideos/salida-6-400px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerSaltoTandem {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/Tandem/tandem7-1920x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerCurso {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/FotosVideos/salida-41920x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headerFotosVideos {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/FotosVideos/angulo1920x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.headerDropzone {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/Dropzone/DZ3Recortada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headerContacto {
+    padding: 0%;
+    height: 400px;
+    background-image: url(Imagenes/Curso/curso1Recortada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.divPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.menuNavegacion ul {
+    display: flex;
+}
+
+.liContacto .subMenuContacto li {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.menuNavegacion .liContacto li {
+    position: relative;
+    text-align: center;
+}
+
+.liContacto .subMenuContacto li {
+    position: absolute;
+    display: none;
+}
+
+.liContacto:hover li {
+    display: block;
+    flex-direction: column;
+}
+
+/*Presentacion*/
+.presentacion {
+
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(Imagenes/FotosVideos/rueda-avion-recortada.jpg);
+    background-repeat: no-repeat;
+    /*width: 100%;*/
+    height: 500px;
+    justify-items: center;
+    background-size: cover;
+}
+
+.h1Inicio,
+.paragraphInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: auto;
+}
+
+/*Secciones*/
+.seccion1,
+.seccion2,
+.seccion3 {
+    display: flex;
+}
+
+.divSeccion12,
+.divSeccion22,
+.divSeccion33 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+.seccion2 {
+    flex-direction: row-reverse;
+}
+
+.imgSeccion1,
+.imgSeccion2,
+.imgSeccion3 {
+    width: 1000px;
+    height: 500px;
+}
+
+/*Redes Sociales*/
+.h2Redes {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+}
+
+.linkFacebook,
+.linkInstagram,
+.linkYoutube,
+.linkWhatsApp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #54595F;
+    height: 400px;
+}
+
+.linksRapidos,
+.contactoFooter,
+.logoFooter {
+    margin-top: 50px;
+}
+
+.logoFooter {
+    height: 100px;
+    width: 100px;
+}
+
+.contactoFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphFooter {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.linksRapidos li {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.copyFooter {
+    height: 100px;
+    background-color: #191919;
+
+}
+
+.copy {
+    color: white;
+    text-align: center;
+}
+
+.listaFooter {
+    list-style: symbols()
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Salto Tandem*/
+
+.tandem {
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(Imagenes/Tandem/tandem6.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    justify-items: center;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tandem,
+.seccion1Tandem,
+.seccion2Tandem {
+    display: flex;
+}
+
+.tandem {
+    justify-content: center;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px;
+}
+
+.divTandem1,
+.divTandem2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.seccion2Tandem {
+    flex-direction: row-reverse;
+}
+
+.h1Tandem,
+.paragraphTandem {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.h1Tandem {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.h2Tandem {
+    margin-top: 50px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*CURSO*/
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1Curso {
+    text-align: center;
+}
+
+.seccion1Curso,
+.seccion2Curso,
+.seccion3Curso {
+    display: flex;
+}
+
+.divEquipos,
+.divAvion,
+.divInstructor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.seccion2Curso {
+    flex-direction: row-reverse;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*FOTOS Y VIDEOS*/
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotosyvideos1,
+.fotosyvideos2 {
+    /*height: 500px;
+    width: 500px;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*DROPZONE*/
+
+.seccion1Dropzone,
+.seccion2Dropzone {
+    display: flex;
+    flex-direction: row;
+    /*padding-top: 50px;*/
+    padding-right: 50px;
+}
+
+.divDz,
+.div1Dz {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.seccion2Dropzone {
+    flex-direction: row-reverse;
+}
+
+/*---------------------------------------------------------------------------*/
+/*GRIDS Index En la parte de las fotos*/
+
+.seccionGrid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+}
+
+.gridTandem {
+
+    background-image: url(Imagenes/Tandem/tandem1960x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.asideTandem,
+.gridCurso,
+.asideFotosVideos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+.asideCurso {
+    background-image: url(Imagenes/Curso/alumno12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridFotosVideos {
+    background-image: url(Imagenes/FotosVideos/paraca1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.boton {
+
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boton:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+.gridLogo img {
+    height: 100px;
+    width: 100px;
+}
+
+.gridLogo {
+    grid-area: logo;
+}
+
+.gridNavegacion {
+    grid-area: navegacion;
+}
+
+.gridRedes {
+    grid-area: redes;
+}
+
+
+.imgFondo {
+    background-image: url(Imagenes/Curso/curso2.png);
+    background-size: cover;
+}
+
+/*FlexBox CONTACTO*/
+.gridNavegacion ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subMenuGridContacto li {
+    display: none;
+}
+
+/*-----------------------------------------*/
+/*Mobile Styles*/
+
+/* Mobile*/
+@media only screen and (max-width: 400px) {
+
+    .h2Grid,
+    .paragraphGrid {
+        display: none;
+    }
+
+    .redesSociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .imgFooter {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width:960px) {
+
+    .asideTandem,
+    .gridCurso,
+    .asideFotosVideos {
+        background-color: whitesmoke;
+    }
+
+    .imgFooter {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+
+
+    .h2Grid,
+    .paragraphGrid,
+    .boton {
+        margin-top: 10px;
+
+    }
+
+    .h2Grid,
+    .paragrafhGrid {
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .gridNavegacion a {
+        color: black;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*Transformaciones y transiciones*/
+
+.linkFacebook,
+.linkInstagram,
+.linkYoutube,
+.linkWhatsApp {
+    transition: all 0.5s;
+}
+
+.linkFacebook:hover,
+.linkInstagram:hover,
+.linkYoutube:hover,
+.linkWhatsApp:hover {
+    height: 60px;
+    width: 60px;
+}
+
+.pFooter a {
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.iconoFont {
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.copy1 {
+    text-align: center;
+    background-color: #053d83;
+}
+
+.footer1 {
+    background-color: #264071;
+}
+
+.h3Contacto {
+    font-size: 20px;
+}
+
+.h3Mapa {
+    color: white;
+}
+
+.h1Dz {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Pagina 404*/
+
